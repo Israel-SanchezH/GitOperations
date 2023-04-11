@@ -1,0 +1,50 @@
+From 4bd1a480b1f0f8944ab57ec64472b91c8541946d Mon Sep 17 00:00:00 2001
+From: israel-github <ish.comunicaciones@gmail.com>
+Date: Sun, 2 Apr 2023 14:17:14 -0600
+Subject: [PATCH 1/2] adding curses.h to my linux system
+
+---
+ sl.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/sl.c b/sl.c
+index e549ac8..9cf0154 100644
+--- a/sl.c
++++ b/sl.c
+@@ -37,7 +37,7 @@
+ /*                                              by Toyoda Masashi 1992/12/14 */
+ /* sl version 1.00 : SL runs vomiting out smoke.                             */
+ /*                                              by Toyoda Masashi 1992/12/11 */
+-
++//Adding curses.h to my linux system
+ #include <curses.h>
+ #include <signal.h>
+ #include <unistd.h>
+-- 
+2.34.1
+
+
+From 46cb050ed5b6c7994a157220df42829821e6d409 Mon Sep 17 00:00:00 2001
+From: israel-github <ish.comunicaciones@gmail.com>
+Date: Sun, 2 Apr 2023 14:20:28 -0600
+Subject: [PATCH 2/2] Running make command in linux, make -f Makefile
+
+---
+ sl.c | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/sl.c b/sl.c
+index 9cf0154..2285740 100644
+--- a/sl.c
++++ b/sl.c
+@@ -38,6 +38,7 @@
+ /* sl version 1.00 : SL runs vomiting out smoke.                             */
+ /*                                              by Toyoda Masashi 1992/12/11 */
+ //Adding curses.h to my linux system
++//Running make command in linux, make -f Makefile
+ #include <curses.h>
+ #include <signal.h>
+ #include <unistd.h>
+-- 
+2.34.1
+
